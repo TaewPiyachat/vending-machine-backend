@@ -15,6 +15,20 @@ const PORT = 8000;
 app.use(json());
 app.use(cors());
 
+router.get("/notifications", async (ctx) => {
+  const values = Object.values(products);
+  const data = [].concat.apply([], values);
+  const filteredValues = data.filter((d) => d.quantity < 10);
+  ctx.body = { status: 200, data: filteredValues };
+});
+
+router.get("/products", async (ctx) => {
+  ctx.body = {
+    status: 200,
+    data: products,
+  };
+});
+
 router.get("/products/:locationId", async (ctx) => {
   const { locationId = "" } = ctx.params;
   ctx.body = products[locationId];
