@@ -1,0 +1,46 @@
+{
+  "L0": [
+    {
+      "id": "LO-0",
+      "product_name": "เป๊ปซี่ 550มล.",
+      "product_image": "https://secure.ap-tescoassets.com/assets/TH/047/8858998581047/ShotType1_540x540.jpg",
+      "price": 17,
+      "quantity": 15,
+      "location": "LO"
+    },
+    {
+      "id": "LO-1",
+      "product_name": "สไปรท์ 500 มล.",
+      "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8851959141366_5.jpg",
+      "price": 18,
+      "quantity": 15,
+      "location": "LO"
+    },
+    {
+      "id": "LO-2",
+      "product_name": "โออิชิ กรีนที 380มล.",
+      "product_image": "https://secure.ap-tescoassets.com/assets/TH/669/8854698009669/ShotType1_540x540.jpg",
+      "price": 18,
+      "quantity": 15,
+      "location": "LO"
+    }
+  ],
+  "L1": [
+    {
+      "id": "L1-0",
+      "product_name": "เป๊ปซี่ 550มล.",
+      "product_image": "https://secure.ap-tescoassets.com/assets/TH/047/8858998581047/ShotType1_540x540.jpg",
+      "price": 17,
+      "quantity": 12,
+      "location": "L1"
+    },
+    {
+      "id": "L1-1",
+      "product_name": "สไปรท์ 500 มล.",
+      "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8851959141366_5.jpg",
+      "price": 18,
+      "quantity": 12,
+      "location": "L1"
+    }
+  ]
+}
