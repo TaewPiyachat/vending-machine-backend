@@ -1,5 +1,6 @@
 const Koa = require("koa");
 const Router = require("koa-router");
+const BodyParser = require("koa-bodyparser");
 const json = require("koa-json");
 const cors = require("@koa/cors");
 
@@ -12,8 +13,22 @@ const { loadJSON, saveJSON } = require("./utils");
 
 const PORT = 8000;
 
+app.use(BodyParser());
 app.use(json());
 app.use(cors());
+
+router.post("/login", async (ctx) => {
+  const { username, password } = ctx.request.body;
+  if (username === "admin" && password === "admin") {
+    ctx.body = { status: 200, isAuthentication: true };
+  } else {
+    ctx.body = {
+      status: 403,
+      isAuthentication: false,
+      message: "Email or Password is incorrect.",
+    };
+  }
+});
 
 router.get("/notifications", async (ctx) => {
   const values = Object.values(products);
