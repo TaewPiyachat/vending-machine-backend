@@ -31,7 +31,7 @@ router.post("/login", async (ctx) => {
 });
 
 router.get("/notifications", async (ctx) => {
-  const values = Object.values(products);
+  const values = Object.values(loadJSON("./data/products.json"));
   const data = [].concat.apply([], values);
   const filteredValues = data.filter((d) => d.quantity < 10);
   ctx.body = { status: 200, data: filteredValues };
@@ -61,7 +61,11 @@ router.put("/products/:locationId/:productId", async (ctx) => {
   products.splice(idx, 1, modifiedProduct);
   const modifiedData = { ...data, [locationId]: products };
   saveJSON("./data/products.json", modifiedData);
-  ctx.body = { status: 200, data: products };
+  ctx.body = {
+    status: 200,
+    data: products,
+    notifyAdmin: products[idx].quantity < 10,
+  };
 });
 
 router.get("/locations/options", async (ctx) => {
