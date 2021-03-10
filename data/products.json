@@ -6,7 +6,8 @@
       "product_image": "https://secure.ap-tescoassets.com/assets/TH/047/8858998581047/ShotType1_540x540.jpg",
       "price": 17,
       "quantity": 11,
-      "location": "L0"
+      "location": "L0",
+      "address": "388 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L0-1",
@@ -14,23 +15,26 @@
       "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8851959141366_5.jpg",
       "price": 18,
       "quantity": 10,
-      "location": "L0"
+      "location": "L0",
+      "address": "388 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L0-2",
       "product_name": "โออิชิ กรีนที 380 มล.",
       "product_image": "https://secure.ap-tescoassets.com/assets/TH/669/8854698009669/ShotType1_540x540.jpg",
       "price": 18,
-      "quantity": 11,
-      "location": "L0"
+      "quantity": 10,
+      "location": "L0",
+      "address": "388 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L0-3",
       "product_name": "โฟร์โมสต์ นมพาสเจอไรส์ รสจืด 400 มล.",
       "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8850346114105_4.jpg",
       "price": 24,
-      "quantity": 11,
-      "location": "L0"
+      "quantity": 10,
+      "location": "L0",
+      "address": "388 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L0-4",
@@ -38,7 +42,8 @@
       "product_image": "https://cf.shopee.co.th/file/61ca27ceed8796e24b1b91b487a74f96",
       "price": 12,
       "quantity": 14,
-      "location": "L0"
+      "location": "L0",
+      "address": "388 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     }
   ],
   "L1": [
@@ -48,7 +53,8 @@
       "product_image": "https://secure.ap-tescoassets.com/assets/TH/047/8858998581047/ShotType1_540x540.jpg",
       "price": 17,
       "quantity": 10,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L1-1",
@@ -56,7 +62,8 @@
       "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8851959141366_5.jpg",
       "price": 18,
       "quantity": 10,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L1-2",
@@ -64,7 +71,8 @@
       "product_image": "https://cf.shopee.co.th/file/61ca27ceed8796e24b1b91b487a74f96",
       "price": 12,
       "quantity": 12,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L1-3",
@@ -72,7 +80,8 @@
       "product_image": "https://res.wemall.com/946694/w_640,h_640,c_thumb/w_640,h_640,c_crop/d0ad10987d30462ae17f57fbb2a92802/30002851.jpg",
       "price": 12,
       "quantity": 14,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L1-4",
@@ -80,7 +89,8 @@
       "product_image": "https://cpfmcdn.bygodigit.net/wp-content/uploads/2020/04/15184950/51011110_P.jpg",
       "price": 12,
       "quantity": 14,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L1-5",
@@ -88,7 +98,8 @@
       "product_image": "https://cf.shopee.co.th/file/73d4f716b8878f9b221beb594c51b02c",
       "price": 12,
       "quantity": 14,
-      "location": "L1"
+      "location": "L1",
+      "address": "999/9 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     }
   ],
   "L2": [
@@ -98,7 +109,8 @@
       "product_image": "https://static.bigc.co.th/media/catalog/product/8/8/8850346114105_4.jpg",
       "price": 24,
       "quantity": 10,
-      "location": "L2"
+      "location": "L2",
+      "address": "1031 ถนน เพลินจิต เเขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L2-1",
@@ -106,7 +118,8 @@
       "product_image": "https://cf.shopee.co.th/file/61ca27ceed8796e24b1b91b487a74f96",
       "price": 12,
       "quantity": 14,
-      "location": "L2"
+      "location": "L2",
+      "address": "1031 ถนน เพลินจิต เเขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L2-2",
@@ -114,7 +127,8 @@
       "product_image": "https://res.wemall.com/946694/w_640,h_640,c_thumb/w_640,h_640,c_crop/d0ad10987d30462ae17f57fbb2a92802/30002851.jpg",
       "price": 12,
       "quantity": 14,
-      "location": "L2"
+      "location": "L2",
+      "address": "1031 ถนน เพลินจิต เเขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L2-3",
@@ -122,7 +136,8 @@
       "product_image": "https://cpfmcdn.bygodigit.net/wp-content/uploads/2020/04/15184950/51011110_P.jpg",
       "price": 12,
       "quantity": 14,
-      "location": "L2"
+      "location": "L2",
+      "address": "1031 ถนน เพลินจิต เเขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     },
     {
       "id": "L2-4",
@@ -130,7 +145,8 @@
       "product_image": "https://cf.shopee.co.th/file/73d4f716b8878f9b221beb594c51b02c",
       "price": 12,
       "quantity": 14,
-      "location": "L2"
+      "location": "L2",
+      "address": "1031 ถนน เพลินจิต เเขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
     }
   ]
 }
