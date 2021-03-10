@@ -19,6 +19,7 @@ app.use(cors());
 
 router.post("/login", async (ctx) => {
   const { username, password } = ctx.request.body;
+
   if (username === "admin" && password === "admin") {
     ctx.body = { status: 200, isAuthentication: true };
   } else {
@@ -49,8 +50,9 @@ router.get("/products/:locationId", async (ctx) => {
   ctx.body = products[locationId];
 });
 
-router.put("/products/:locationId/:productId", async (ctx) => {
+router.put("/products/buy/:locationId/:productId", async (ctx) => {
   const { locationId = "", productId = "" } = ctx.params;
+
   const data = { ...loadJSON("./data/products.json") };
   const products = [...data[locationId]];
   const idx = products.findIndex((p) => p.id === productId);
@@ -61,10 +63,34 @@ router.put("/products/:locationId/:productId", async (ctx) => {
   products.splice(idx, 1, modifiedProduct);
   const modifiedData = { ...data, [locationId]: products };
   saveJSON("./data/products.json", modifiedData);
+
   ctx.body = {
     status: 200,
     data: products,
     notifyAdmin: products[idx].quantity < 10,
+  };
+});
+
+router.put("/products/add/:locationId/:productId", async (ctx) => {
+  const { amount } = ctx.request.body;
+  const { locationId = "", productId = "" } = ctx.params;
+
+  const data = { ...loadJSON("./data/products.json") };
+  const products = [...data[locationId]];
+  const idx = products.findIndex((p) => p.id === productId);
+  const prevQuantity = products[idx].quantity;
+  const modifiedProduct = {
+    ...products[idx],
+    quantity: !products[idx].quantity ? 0 : products[idx].quantity + amount,
+  };
+  products.splice(idx, 1, modifiedProduct);
+  const modifiedData = { ...data, [locationId]: products };
+  saveJSON("./data/products.json", modifiedData);
+
+  ctx.body = {
+    status: 200,
+    data: modifiedData,
+    notifyAdmin: prevQuantity < 10 && products[idx].quantity >= 10,
   };
 });
 
