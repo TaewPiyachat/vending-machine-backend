@@ -81,7 +81,7 @@ router.put("/products/add/:locationId/:productId", async (ctx) => {
   const prevQuantity = products[idx].quantity;
   const modifiedProduct = {
     ...products[idx],
-    quantity: !products[idx].quantity ? 0 : products[idx].quantity + amount,
+    quantity: products[idx].quantity + amount,
   };
   products.splice(idx, 1, modifiedProduct);
   const modifiedData = { ...data, [locationId]: products };
